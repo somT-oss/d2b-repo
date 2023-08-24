@@ -2,10 +2,11 @@
 
 echo "Setting evnironnemt variables!"
 
-echo "export RDS_HOST=db-instance-identifier.cfd1mkirrlto.us-east-1.rds.amazonaws.com" >> ~/.profile
-echo "export RDS_USERNAME=postgres" >> ~/.profile
-echo "export RDS_PASSWORD=testing" >> ~/.profile
-echo "export RDS_DATABASE=users" >> ~/.profile
-echo "export RDS_PORT=5432" >> ~/.profile
+# Environment variables
+echo "export RDS_HOST={rds_host}" >> ~/.profile
+echo "export RDS_USERNAME={rds-master-username}" >> ~/.profile
+echo "export RDS_PASSWORD={rds-master-password}">> ~/.profile
+echo "export RDS_DATABASE={rds-database}" >> ~/.profile
+echo "export RDS_PORT={rds-port}" >> ~/.profile
 
 echo "Done setting environment variables"

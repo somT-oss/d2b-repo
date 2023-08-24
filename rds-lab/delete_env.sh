@@ -1,3 +1,6 @@
+#!/usr/bin/bash
+
+# Delete environment variables
 sed -i '/RDS_HOST/d' ~/.profile
 sed -i '/RDS_USERNAME/d' ~/.profile
 sed -i '/RDS_PASSWORD/d' ~/.profile
