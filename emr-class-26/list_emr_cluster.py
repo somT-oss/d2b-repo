@@ -1,7 +1,7 @@
 import boto3
 
 # Create an EMR client
-emr_client = boto3.client('emr', region_name='your-region')
+emr_client = boto3.client('emr', region_name='your-region-name')
 
 # List EMR clusters
 response = emr_client.list_clusters(ClusterStates=['TERMINATED', 'WAITING'])

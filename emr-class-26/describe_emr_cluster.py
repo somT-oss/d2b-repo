@@ -1,7 +1,7 @@
 import boto3
 
 # Create an EMR client
-emr_client = boto3.client('emr', region_name='your-region')
+emr_client = boto3.client('emr', region_name='your-region-name')
 
 # Specify the ID of the cluster you want to describe
 cluster_id = 'your-cluster-id'
